@@ -3,7 +3,7 @@ Code for our paper: **CalibRefine: Deep Learning-Based Online Automatic Targetle
 
 ## Results
 ### Demo video for Intersection 1
-<video src="https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/blob/main/Videos%20and%20Images/Intersection%201.mp4" controls></video>
+[Intersection 1](https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/blob/main/Videos%20and%20Images/Intersection%201.mp4)
 
 ### Demo video for Intersection 2
-<video src="https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/blob/main/Videos%20and%20Images/Intersection%202.mp4" controls></video>
+[Intersection 2](https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/blob/main/Videos%20and%20Images/Intersection%202.mp4)
