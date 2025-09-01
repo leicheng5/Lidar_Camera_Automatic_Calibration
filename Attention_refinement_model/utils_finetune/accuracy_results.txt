@@ -1,0 +1,3 @@
+Binary Classification Accuracy: 67.72%
+Image Classification Accuracy: 51.46%
+Lidar Classification Accuracy: 51.20%
