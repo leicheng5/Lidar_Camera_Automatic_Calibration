@@ -20,7 +20,11 @@ Accurate multi-sensor calibration is essential for deploying robust perception s
 [![Watch the video](https://img.youtube.com/vi/Q5gCdi36C8Y/0.jpg)](https://www.youtube.com/watch?v=Q5gCdi36C8Y)
 
 ### III. Demo video for using the camera intrinsic matrix to rectify calibration
+[![Watch the video](https://img.youtube.com/vi/4HCM0ObuQl4/0.jpg)](https://www.youtube.com/watch?v=4HCM0ObuQl4)
+
 [![Watch the video](https://img.youtube.com/vi/K-TxdrPlns8/0.jpg)](https://www.youtube.com/watch?v=K-TxdrPlns8)
+
+
 
 ## LiDAR-Camera Online-Automatic-Targetless Calibration Steps
 ### 1. Common Feature Discriminator
