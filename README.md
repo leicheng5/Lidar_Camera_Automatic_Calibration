@@ -53,7 +53,7 @@ After doing the coarse calibration matrix, you may keep refining the calibration
 
 If you have the camera intrinsic matrix, you may choose to do **Intrinsic-Rectified Calibration** instead of **Attention-based Refinement**.
 
-You need to use **`rectify_image_bbox.py`** first to use intrinsic matrix to rectify image distortion.
+You need to use **`rectify_image_bbox.py`** first to employ the intrinsic matrix to rectify image distortion.
 
 Then, you can repeat the above calibration steps (**Coarse Homography Calibration** and **Iterative Refinement**), where the **`.py`** files ending with **`_rectify`** are specifically designed for this purpose.
 
