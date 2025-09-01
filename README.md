@@ -37,7 +37,7 @@ After obtaining the coarse calibration matrix, you can now use **`Online_Refine_
 You may also visualize the calibration results by using **`Video_Visualization.py`** in the folder **`/calibration`**.
 
 ### 4. Attention-based Refinement
-After doing the coarse calibration matrix, you may keep refining the calibration matrix by performing Attention-based Refinement in the folder **`/Attention_refinement_model`**.
+After doing the coarse calibration matrix, you may keep refining the calibration matrix by performing **Attention-based Refinement** in the folder **`/Attention_refinement_model`**.
 
 **`Train_finetune.py`** to train the Attention model.
 
@@ -47,7 +47,7 @@ After doing the coarse calibration matrix, you may keep refining the calibration
 
 ### 5. Intrinsic-Rectified Calibration
 
-If you have the camera intrinsic matrix, you may choose to do Intrinsic-Rectified Calibration instead of Attention-based Refinement.
+If you have the camera intrinsic matrix, you may choose to do **Intrinsic-Rectified Calibration** instead of **Attention-based Refinement**.
 
 You need to use **`rectify_image_bbox.py`** first to use intrinsic matrix to rectify image distortion.
 
