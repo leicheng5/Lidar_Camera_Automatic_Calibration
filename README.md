@@ -13,33 +13,29 @@
   </a>
 </p>
 
+---
 
-
-## Contributors
+## 🧑‍🤝‍🧑 Contributors
 
 <a href="https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/graphs/contributors">
   <img alt="Contributors" src="https://contrib.rocks/image?repo=radar-lab/Lidar_Camera_Automatic_Calibration" />
 </a>
 
----
+
 
 ## 📧 Contact
-- **Author**: [Lei Cheng](https://github.com/leicheng5)  
-- **Lab**: [Radar-Lab](https://github.com/radar-lab)  
+- 🧑‍💻 **Author**: [Lei Cheng](https://github.com/leicheng5)  
+- 🏫 **Lab**   : [Radar-Lab](https://github.com/radar-lab)  
 
-
-
-
-
-
-## I. Abstract
+---
+## 🎯 I. Abstract
 Accurate multi-sensor calibration is essential for deploying robust perception systems in applications such as autonomous driving and intelligent transportation. Existing LiDAR-camera calibration methods often rely on manually placed targets, preliminary parameter estimates, or intensive data preprocessing, limiting their scalability and adaptability in real-world settings. In this work, we propose a fully automatic, targetless, and online calibration framework, CalibRefine, which directly processes raw LiDAR point clouds and camera images. Our approach is divided into four stages: (1) a Common Feature Discriminator that leverages relative spatial positions, visual appearance embeddings, and semantic class cues to identify and generate reliable LiDAR-camera correspondences, (2) a coarse homography-based calibration that uses the matched feature correspondences to estimate an initial transformation between the LiDAR and camera frames, serving as the foundation for further refinement, (3) an iterative refinement to incrementally improve alignment as additional data frames become available, and (4) an attention-based refinement that addresses non-planar distortions by leveraging a Vision Transformer and cross-attention mechanisms. Extensive experiments on two urban traffic datasets demonstrate that CalibRefine achieves high-precision calibration with minimal human input, outperforming state-of-the-art targetless methods and matching or surpassing manually tuned baselines. Our results show that robust object-level feature matching, combined with iterative refinement and self-supervised attention-based refinement, enables reliable sensor alignment in complex real-world conditions without ground-truth matrices or elaborate preprocessing. 
 <p align="center">
   <img src="https://github.com/radar-lab/Lidar_Camera_Automatic_Calibration/blob/main/Videos%20and%20Images/framework.png" width="90%">
 </p>
 
 
-## II. Results
+## 📊 II. Results
 ### 1. Demo video for Intersection 1
 [![Watch the video](https://img.youtube.com/vi/OgJkBQlzVV4/0.jpg)](https://www.youtube.com/watch?v=OgJkBQlzVV4)
 
